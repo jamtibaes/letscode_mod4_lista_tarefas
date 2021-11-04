@@ -33,7 +33,7 @@ btnCa.disabled = false
 // Funções
 const condicaoInicial = () => {
 
-    if(!buscarDadosStorage('tarefas').length){
+    if(!buscarDadosStorage('tarefas')){
         btnAp.disabled = true
         btnCa.disabled = true
     } else {
